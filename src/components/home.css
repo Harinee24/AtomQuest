@@ -1,0 +1,203 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f9fc; /* Light background for better contrast */
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background: rgb(78, 205, 255); /* Gradient for a modern look */
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+  }
+  
+  /* Logo and title styling */
+  .header-content img#wdrop {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .header-content h1 {
+    font-size: 24px;
+    margin: 0;
+    flex-grow: 1; /* Pushes the profile picture to the right */
+  }
+  
+  /* Profile picture styling */
+  .header-content img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    margin-left: auto; /* Aligns the profile picture to the right */
+  }
+  
+  
+  #wdrop {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for better readability */
+  }
+  
+  /* Navbar styles */
+  nav {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    margin-right: 100px;
+  }
+  
+  nav ul li.active {
+    text-decoration: underline;
+  }
+  
+  /* Main content styles */
+  main {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 160px); /* Adjust height to exclude header and footer */
+    text-align: center;
+    gap: 20px; /* Add spacing between elements */
+  }
+  
+  main h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .water-img {
+    width: 240px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  }
+  
+  .water-level {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Button styles */
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .off-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .on-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  }
+  
+  .parameters-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 2px solid #cccccc;
+  }
+  
+  .parameters-table th,
+  .parameters-table td {
+    border: 1px solid #cccccc;
+    padding: 15px 150px;
+    text-align: left;
+  }
+  
+  .parameters-table th {
+    text-align: center;
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .parameters-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .parameters-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .btn.print-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn.print-btn:hover {
+    background-color: #45a049;
+  }
+  
